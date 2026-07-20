@@ -1,0 +1,94 @@
+# AI Optimization Techniques
+
+All three techniques enhance an LLM's response accuracy and effectiveness in specific scenarios by targeting different aspects of AI functionality.
+
+RAG and Prompt Engineering are effective, but making an LLM smarter or faster is unlikely without modifying its weights.
+
+---
+
+## Prompt Engineering
+
+Prompt Engineering involves explaining to the model how to behave or what context to consider.
+
+### Characteristics
+
+* Does not change model weights.
+* Does not add new training data.
+* Uses instructions and examples to guide output.
+* Can be refined through multiple iterations.
+* The model remains unchanged and adapts only to the provided instructions.
+
+### Advantages
+
+* Fairly easy to implement.
+* Highly iterative.
+* Can improve output quality through repeated refinement.
+
+---
+
+## Retrieval-Augmented Generation (RAG)
+
+RAG expands the model's context by attaching a library or database.
+
+### Characteristics
+
+* Does not change model weights.
+* Attaches a database to the model.
+* Provides additional context for generating responses.
+* Allows the model to reference external information.
+
+### Advantages
+
+* Expands available knowledge.
+* Provides significantly more examples and context.
+* Can be improved by updating the database.
+
+---
+
+## Fine-Tuning
+
+Fine-tuning provides additional training for an already trained model.
+
+### Characteristics
+
+* Changes model weights.
+* Uses additional training data.
+* Updates the model itself.
+
+### Advantages
+
+* Can improve model quality.
+* Can improve model speed.
+* Can make a model smaller and more specialized.
+
+### Limitations
+
+* Computationally expensive.
+* Cannot be refined as easily as prompt engineering or RAG.
+* Requires retraining the model.
+
+Example:
+
+If we retrained GPT and assigned it new weights to make it lighter and faster, that would be an example of fine-tuning.
+
+---
+
+## Real-World Example: Interview Bot
+
+Fine-tuning was not the best solution because the goal was to create an interview bot that could generalize well and adapt to changing interview situations.
+
+Instead, a database of sample interview questions was integrated to provide additional context based on the user's selected interview type.
+
+This led to the use of RAG, with multiple adjustments made to the database throughout development based on model performance.
+
+Prompt engineering was the most time-consuming phase.
+
+The model required instructions for:
+
+* Displaying coding questions
+* Different interview stages
+* Evaluating users afterward
+* Communication tone
+* Following up on responses
+
+This project demonstrated the importance of prompt engineering and the many iterations required to build an AI product that behaves as expected.

@@ -1,0 +1,42 @@
+Generative AI
+
+Definition
+
+Generative AI is a branch of artificial intelligence that creates new content rather than simply analyzing existing data. It can generate text, images, audio, video, code, and 3D models by learning patterns from training data.
+
+What Makes Gen AI Different?
+
+Traditional AI focuses on prediction, classification, and recommendation. Generative AI focuses on creating new content based on patterns learned during training.
+
+Core Technologies
+
+1. Large Language Models (LLMs)
+
+Neural networks trained on vast amounts of text data. They learn relationships between words and can generate human-like responses.
+Examples: ChatGPT, Claude, Gemini.
+
+2. Diffusion Models
+
+Models that generate images and videos by starting with random noise and gradually refining it into meaningful content.
+Examples: DALL-E
+
+3. Generative Adversarial Networks (GANs)
+
+Two neural networks compete with each other. One generates content while the other evaluates its realism, improving the output over time.
+
+4. Neural Radiance Fields (NeRFs)
+
+Specialized AI models used to create realistic 3D scenes and objects from multiple images.
+
+5. Hybrid Models
+
+Systems that combine multiple AI techniques, such as LLMs and diffusion models, to perform more complex tasks.
+
+Content Types
+
+- Text
+- Images
+- Video
+- Audio
+- Data
+- 3D Models

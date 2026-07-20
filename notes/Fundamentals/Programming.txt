@@ -1,0 +1,88 @@
+# Programming
+
+## How Does Somebody Become Good at Programming?
+
+Programming requires more than learning syntax. It involves problem solving, mechanistic thinking, and writing clear code.
+
+---
+
+## 1. Problem Solving
+
+Programming requires problem-solving skills and abstract thinking.
+
+You should first understand the task and then break it down into smaller computational steps that a computer can execute.
+
+Example:
+
+Create a program that adds ten to any number entered by the user.
+
+Reasoning:
+
+```text
+input: x
+output: x + 10
+```
+
+Possible breakdown:
+
+* Computational Step #1
+* Computational Step #2
+* Computational Step #3
+
+Once the steps are identified, they can be translated into code.
+
+---
+
+## 2. Mechanistic Thinking
+
+Computers can only execute what you explicitly tell them to do.
+
+They do not understand implied instructions.
+
+Because of this, programmers must learn to write clear instructions that produce the desired result.
+
+Strong programming skills help you:
+
+* Understand program behavior
+* Debug effectively
+* Break complex problems into smaller parts
+* Connect all the pieces of a solution
+
+Example:
+
+Robert needs a function that adds ten to a number.
+
+```python
+def plus_ten(x):
+    return x + 10
+```
+
+The task is solved by:
+
+1. Defining a function
+2. Accepting x as an argument
+3. Returning x + 10
+
+---
+
+## 3. Good Coding Style
+
+Coding style is important regardless of the programming language being used.
+
+Small programs are easy to read, but real-world applications often contain hundreds of lines of code.
+
+Poorly organized code can become difficult for other programmers to understand.
+
+Good coding practices help make code:
+
+* Easier to read
+* Easier to maintain
+* Easier to share with others
+
+Programming challenges help develop:
+
+* Problem-solving ability
+* Mechanistic thinking
+* Code organization skills
+
+The goal is to formulate problems, break them into meaningful steps, and communicate those steps to the computer in an organized way.

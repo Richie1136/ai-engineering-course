@@ -1,0 +1,166 @@
+# AI Engineer
+
+## What Is an AI Engineer?
+
+An AI Engineer builds AI-driven products on top of existing foundation models.
+
+Unlike AI developers, AI engineers are not primarily focused on building and training foundation models.
+
+Instead, they focus on integrating foundation models into products such as:
+
+* Websites
+* Mobile Applications
+* Internet of Things (IoT) Devices
+* Smart Home Systems
+
+---
+
+## The Main Goal
+
+The AI engineer builds the bridge between foundation models developed by organizations such as:
+
+* OpenAI
+* Google
+
+and products that can benefit from AI capabilities.
+
+---
+
+## Model Adaptation Techniques
+
+AI engineers improve AI performance through techniques such as:
+
+* Fine-Tuning
+* Prompt Engineering
+* Retrieval-Augmented Generation (RAG)
+
+These techniques help adapt foundation models to specific business needs.
+
+---
+
+## Programming Skills
+
+Strong coding skills are essential, particularly in Python.
+
+Python allows AI engineers to:
+
+* Perform data analysis
+* Explore datasets
+* Prototype models
+
+Popular Python libraries include:
+
+### Pandas
+
+Used for:
+
+* Data preparation
+* Data analysis
+
+### NumPy
+
+Used for:
+
+* Mathematical operations
+* Working with arrays and matrices
+
+---
+
+## Hugging Face
+
+Hugging Face is a valuable platform for AI engineers.
+
+Its Transformers library provides access to state-of-the-art foundation models that can be fine-tuned for specific tasks.
+
+Familiarity with Hugging Face is highly beneficial.
+
+---
+
+## LangChain
+
+LangChain is an important tool for AI engineers.
+
+It helps:
+
+* Integrate foundation models into applications
+* Switch between different LLMs
+* Simplify AI integration
+
+LangChain significantly reduces development complexity.
+
+---
+
+## Vector Databases
+
+Vector databases such as Pinecone help AI engineers work with embeddings.
+
+Benefits include:
+
+* Efficient storage
+* Fast retrieval
+* Improved scalability
+* Reduced latency
+
+This allows engineers to focus on:
+
+* User Experience (UX)
+* AI Application Quality
+* Response Quality
+
+rather than database implementation details.
+
+---
+
+## Additional Skills
+
+AI engineers benefit from strong knowledge of:
+
+* LLMs
+* NLP
+* Cloud Services
+* Docker
+* Containerization
+
+---
+
+## Full-Stack AI Engineer
+
+A full-stack AI engineer combines:
+
+* Machine Learning Engineering
+* Artificial Intelligence
+* Software Development
+
+This combination of skills is relatively rare.
+
+Many companies seek candidates with either:
+
+* Computer Science backgrounds
+* Machine Learning Engineering backgrounds
+
+and expect them to strengthen the areas where they have less experience.
+
+---
+
+## Education
+
+Many AI engineering job postings request:
+
+* Computer Science
+* Mathematics
+* Statistics
+* Data Science
+
+or another related degree.
+
+Bachelor's and Master's degrees are commonly listed.
+
+---
+
+## Career Outlook
+
+AI engineering represents a significant career opportunity.
+
+As more companies adopt Generative AI, demand for professionals who can integrate powerful foundation models into products is expected to increase.
+
+The number of opportunities to connect consumer products with advanced foundation models is likely to grow substantially in the coming years.

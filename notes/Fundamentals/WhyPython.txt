@@ -1,0 +1,113 @@
+# Why Python?
+
+## Why Learn Python?
+
+There are two main reasons to learn Python:
+
+1. It has several technical advantages compared to other programming languages.
+2. Its practical applications span multiple industries.
+
+Python is a powerful computational tool for solving complex problems in:
+
+* Finance
+* Econometrics
+* Economics
+* Data Science
+* Machine Learning
+
+It is a strong choice for someone learning to code and pursuing a career in data science.
+
+---
+
+## What Is Python?
+
+Python is an:
+
+* Open Source
+* General Purpose
+* High Level
+
+programming language.
+
+---
+
+## Open Source
+
+Open source means Python is free.
+
+Python has a large and active scientific community that contributes to its continuous development and improvement.
+
+Because of its open-source nature, Python is cross-platform and available on:
+
+* Windows
+* Mac
+* Linux
+
+This allows Python to be used in many different environments.
+
+Domain-specific languages such as Matlab and SAS are paid solutions, which influences their popularity.
+
+---
+
+## General Purpose
+
+Python can be applied across many different fields.
+
+For example:
+
+* Web Programming through the Django framework
+* Finance
+* Econometrics
+* Data Science
+* Machine Learning
+
+Its broad applicability and interoperability with other programming languages contribute to its widespread adoption.
+
+---
+
+## High-Level Language
+
+Computers can only execute programs written in low-level machine languages.
+
+Programs written in high-level languages must first be interpreted into low-level instructions before execution.
+
+Although this process takes time, high-level languages provide major advantages.
+
+High-level languages use syntax that is closer to human logic, making them easier to:
+
+* Learn
+* Read
+* Write
+* Maintain
+
+This allows programmers to focus on solving problems rather than dealing with difficult low-level code.
+
+---
+
+## Technical Advantages of Python
+
+Python is often preferred because:
+
+* It is free and constantly updated.
+* It can be used across multiple domains.
+* It has intuitive syntax.
+* It supports complex quantitative computations.
+* It does not require excessive time to process calculations.
+
+---
+
+## Why Is Python So Popular?
+
+Python's popularity is built on two main pillars:
+
+### 1. Easy to Learn
+
+Python is designed to be highly readable.
+
+Its syntax is clear, intuitive, and beginner-friendly.
+
+### 2. Powerful
+
+Its ease of use does not reduce its capabilities.
+
+Python can perform a wide variety of complex computations and is widely used by specialists.

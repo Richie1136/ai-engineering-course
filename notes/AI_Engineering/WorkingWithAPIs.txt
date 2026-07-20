@@ -1,0 +1,62 @@
+# Working With APIs
+
+## What Is an API?
+
+Some website owners use APIs (Application Programming Interfaces) to facilitate data extraction.
+
+An API serves as a bridge between a client and a server, enabling them to communicate.
+
+The client sends a request across this bridge, and the server responds with the required data.
+
+---
+
+## Example: Two Companies Working Together
+
+Imagine two companies:
+
+* 365 Company
+* A Job Board Business
+
+The 365 Company wants to share up-to-date information about how much a student has learned with the job board.
+
+Using an API, the job board can obtain the latest student data directly from 365 Company servers.
+
+---
+
+## The API Process
+
+The process involves two main steps:
+
+### 1. API Request
+
+The client sends a request to the server through the API.
+
+Example:
+
+The job board sends a request to 365 Company servers.
+
+### 2. API Response
+
+The server responds with the requested data.
+
+The job board receives the latest student information.
+
+---
+
+## APIs and Foundation Models
+
+To integrate a foundation model such as GPT from OpenAI into a product, you need to connect to OpenAI's API.
+
+This connection allows you to:
+
+* Send requests to OpenAI services.
+* Receive responses from OpenAI services.
+* Use foundation models inside your application.
+
+---
+
+## Why APIs Matter
+
+Using APIs is a critical skill for AI developers and engineers.
+
+APIs allow applications to communicate with external services and access the data and models needed to build AI-powered products.

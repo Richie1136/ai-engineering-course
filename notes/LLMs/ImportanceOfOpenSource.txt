@@ -1,0 +1,97 @@
+# Importance of Open Source AI
+
+## Open Source vs Closed Source
+
+One of the eternal battles in software development is between open source and closed source software.
+
+Few organizations have the resources to build proprietary LLMs, but many can build solutions based on open source AI.
+
+While much attention is focused on proprietary foundation models such as GPT and Gemini, open source AI continues to grow rapidly behind the scenes.
+
+---
+
+## What Makes Open Source Powerful?
+
+Open source software is developed by a community of skilled and motivated individuals.
+
+Developers can build on each other's work and provide public access to their contributions.
+
+This collaborative environment accelerates innovation by leveraging collective knowledge and creativity.
+
+---
+
+## Growth of Open Source AI
+
+One of the critical factors behind the growth of open source AI is the reduction of hardware requirements for AI development.
+
+The open source community has made progress in:
+
+* Running large language models on smartphones
+* Developing scalable personal AI systems
+
+As a result, open source AI continues to gain ground against proprietary solutions.
+
+---
+
+## Advantages of Open Source AI
+
+* Avoid Google or OpenAI usage fees
+* Ability to customize and fine-tune models
+* Community-driven innovation
+* Potentially lower costs for specialized use cases
+* Strong support for domain-specific solutions
+
+---
+
+## Challenges of Open Source AI
+
+Although open source models avoid provider fees, they still require computing resources.
+
+Organizations must still consider:
+
+* Compute costs
+* Customization costs
+* Fine-tuning costs
+
+It is not always clear whether customizing an open source model will ultimately cost less than using a commercial solution.
+
+---
+
+## Advantages of Closed Source AI
+
+Closed source solutions are generally easier to implement.
+
+Benefits include:
+
+* Plug-and-play convenience
+* Minimal configuration
+* Optimized user experience
+* Customer support
+* Solid APIs
+* Ethics and legal compliance
+
+Another important benefit is that business data has a lower chance of leaking to the public.
+
+---
+
+## Open Source vs Closed Source Use Cases
+
+Open source models may be particularly advantageous for narrow, specialized use cases.
+
+Domain-specific problems can often be solved effectively by fine-tuning a base model.
+
+Using a broad model such as GPT for a niche problem may be more expensive.
+
+Fine-tuning closed source models can also be costly because some providers charge significant fees.
+
+---
+
+## Why Closed Source Models Remain Powerful
+
+Closed source models are likely to remain more expensive overall.
+
+Because they are trained on vast datasets, they can perform better on complex tasks that require generalized understanding and broad capabilities.
+
+A major advantage of large technology companies is their ability to acquire proprietary data.
+
+Access to proprietary datasets allows them to build stronger foundation models and potentially increase the performance gap.

@@ -1,0 +1,71 @@
+Natural Language Processing (NLP)
+
+Definition
+
+Natural Language Processing (NLP) is a field of artificial intelligence that focuses on enabling computers to understand, interpret, and generate human language.
+
+History
+
+1. Rule-Based NLP
+
+Early NLP systems relied on manually created grammar and language rules. These systems could perform simple tasks but struggled with language complexity and variation.
+
+2. Statistical NLP
+
+Statistical NLP shifted from hand-written rules to analyzing large amounts of text data and calculating probabilities to determine language patterns and meaning.
+
+Embeddings
+
+Vector Embeddings
+
+Words, sentences, images, and other data can be converted into numerical vectors that capture their meaning and relationships.
+
+Semantic Similarity
+
+Embeddings allow AI systems to compare concepts based on meaning rather than exact wording. Similar concepts are positioned closer together in vector space.
+
+Language Models
+
+A language model predicts words based on surrounding context and learns patterns from large amounts of text data.
+
+Masked Models
+
+Masked language models predict missing words anywhere within a sentence.
+
+Example:
+
+"The capital of France is [MASK]."
+
+Prediction:
+
+"Paris"
+
+Example Model:
+- BERT
+
+Autoregressive Models
+
+Autoregressive models predict the next word based on previously seen words.
+
+Example:
+
+"The capital of France is"
+
+Prediction:
+
+"Paris"
+
+Examples:
+- GPT
+- Claude
+- Gemini
+
+Applications of NLP
+
+- Chatbots
+- Search Engines
+- Translation
+- Sentiment Analysis
+- Text Summarization
+- Question Answering
+- Speech Recognition

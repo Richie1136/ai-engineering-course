@@ -1,0 +1,22 @@
+Robotics
+
+Definition
+
+Disciplines Involved
+
+- Mechanical Engineering
+- Electrical Engineering
+- AI Engineering
+
+Key Technologies
+
+- Computer Vision
+- Reinforcement Learning
+- NLP
+- SLAM
+
+Applications
+
+- Tesla Optimus
+- Warehouse Automation
+- Medical Robotics

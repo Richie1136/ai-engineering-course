@@ -1,0 +1,66 @@
+# Hallucinations and Inconsistencies
+
+## AI Is Not Always Correct
+
+ChatGPT is brilliant, but sometimes we give it more credit than it deserves.
+
+We can make big mistakes if we do not check an AI's output.
+
+As a rule of thumb, an expert in their field works with AI and reasons within the AI conversation rather than blindly trusting every answer.
+
+OpenAI clearly states:
+
+"ChatGPT can make mistakes. Check important info."
+
+---
+
+## Two Types of Undesired Behavior
+
+Generative AI tools can exhibit two major types of undesired behavior:
+
+1. Hallucinations
+2. Inconsistencies
+
+---
+
+## Hallucinations
+
+Hallucinations occur when an AI model provides false output while generating a response.
+
+Generative AI models often predict the next word in a sequence using context to improve accuracy.
+
+Despite their sophistication, these predictions can sometimes be incorrect.
+
+Another cause of hallucinations is that the model may have been trained on factually incorrect data.
+
+### Possible Mitigation
+
+One prompt engineering technique is to instruct the model:
+
+"Provide an answer only if you know the answer."
+
+In some situations, this can help reduce hallucinations.
+
+---
+
+## Inconsistencies
+
+Inconsistencies occur when a model provides very different responses to the same question.
+
+When ChatGPT first became popular, users often felt that the AI appeared smarter in some sessions and less capable in others.
+
+This can occur because of variations in the hardware used to run the model or other uncontrollable factors, especially when the model is hosted externally.
+
+### Possible Mitigation
+
+One unproven approach is to instruct the AI to take its time before responding.
+
+The idea is that the system may avoid rushing and potentially allocate more resources to generating the response.
+
+---
+
+## Future Research
+
+Detecting hallucinations and inconsistencies and finding ways to address them will be one of the major topics of AI research in the years ahead.
+
+This area is expected to become a significant market as organizations continue to adopt AI systems.

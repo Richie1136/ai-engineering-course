@@ -1,0 +1,80 @@
+# Python Programming for AI
+
+## No-Code and Low-Code Tools
+
+No-code and low-code tools are a popular way to get started with AI.
+
+They have grown in popularity in recent years and can be used to:
+
+* Develop chatbots
+* Explore AI product ideas
+* Build certain real-world applications
+
+These tools can provide an initial understanding of how AI products are created.
+
+---
+
+## Why Coding Matters
+
+If you are serious about learning AI and developing AI-powered applications, you must know how to code.
+
+Learning to code is essential because it allows you to engage with AI at a much deeper level.
+
+Coding enables developers to:
+
+* Use APIs from major AI providers
+* Tailor AI behavior through prompt engineering
+* Integrate databases
+* Modify model parameters
+
+These capabilities are crucial for creating sophisticated AI-driven applications and are currently beyond the reach of many no-code tools.
+
+---
+
+## Major AI Providers
+
+Coding allows developers to work directly with AI providers such as:
+
+* OpenAI
+* Llama
+* Anthropic
+
+---
+
+## Why Python?
+
+Python is the leading programming language for data science and AI.
+
+Its comprehensive libraries and robust infrastructure enhance scalability for AI engineers and developers.
+
+---
+
+## Popular Python Libraries
+
+### NumPy
+
+Used for:
+
+* Multidimensional arrays
+* Matrices
+* Mathematical functions
+
+### Pandas
+
+Used for:
+
+* Data preprocessing
+
+### Matplotlib
+
+Used for:
+
+* Data visualization
+
+---
+
+## Final Thought
+
+Learning the coding aspects of AI development requires considerable effort, especially for beginners.
+
+However, coding skills are essential for creating reliable AI applications.

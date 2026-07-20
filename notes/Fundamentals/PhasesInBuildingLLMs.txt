@@ -1,0 +1,133 @@
+# Phases of Building LLMs
+
+## Overview
+
+Model Design
+↓
+Dataset Engineering
+↓
+Pretraining
+↓
+Preliminary Evaluation
+↓
+Post-Training
+↓
+Finetuning
+↓
+Final Testing and Evaluation
+
+---
+
+## 1. Model Design
+
+Decide how the model will be built.
+
+Key decisions include:
+
+* Type of architecture (Transformers, CNNs, RNNs, etc.)
+* Model depth
+* Number of neural network layers
+* Total number of parameters
+
+---
+
+## 2. Dataset Engineering
+
+Collection, cleansing, and structuring of training data for the model.
+
+"A model is only as good as the data used to build it."
+
+There are two primary ways to acquire data:
+
+1. Scrape publicly available data from the internet.
+2. Use proprietary data.
+
+Few companies possess enough proprietary data to build an LLM entirely from internal sources.
+
+Bernard Marr:
+
+"The companies that own the most proprietary data will likely have a competitive advantage when building AI systems."
+
+Important considerations:
+
+* Data diversity
+* Bias reduction
+* Ethical data collection
+
+Once the dataset is prepared, the pretraining phase begins.
+
+---
+
+## 3. Pretraining
+
+Training the model on a large corpus of raw data collected during dataset engineering.
+
+The result is a raw version of the model.
+
+Potential issues:
+
+* Offensive language
+* Biases
+* Undesired outputs
+* Lack of domain specialization
+
+Example:
+
+A customer support chatbot should respond in a customer-friendly way that matches user expectations and company standards.
+
+After pretraining, AI developers evaluate the model's initial capabilities.
+
+---
+
+## 4. Preliminary Evaluation
+
+Developers evaluate the model's early performance and identify areas for improvement before post-training begins.
+
+---
+
+## 5. Post-Training
+
+Post-training consists of two steps:
+
+### Step 1
+
+Supervised fine-tuning using high-quality data.
+
+### Step 2
+
+Refining the model using human feedback and annotations.
+
+The goal is to improve the model's responses, safety, and alignment.
+
+---
+
+## 6. Finetuning
+
+Updates the model's weights to improve quality and performance.
+
+Finetuning can:
+
+* Improve task-specific performance
+* Increase speed
+* Reduce model size
+* Adapt a model to a specific domain
+
+Trade-off:
+
+A model may become better at a specialized task while becoming less capable in general-purpose applications.
+
+---
+
+## 7. Final Testing and Evaluation
+
+The model undergoes strict testing from an end-user perspective.
+
+Evaluation criteria include:
+
+* Response quality
+* Accuracy
+* Speed
+* Reliability
+* Ethical behavior
+
+The goal is to determine whether the model is ready for real-world use.

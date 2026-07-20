@@ -1,0 +1,82 @@
+# Budgeting and Cost in AI Development
+
+## The Two Main Factors
+
+The two main factors determining how powerful an AI model is are:
+
+* Dataset Size
+* Model Size
+
+A larger, higher-quality dataset significantly enhances the model's learning potential, while the model's size determines its learning capacity.
+
+---
+
+## Dataset Size vs Model Size
+
+Think of a large dataset as a library full of books.
+
+The more high-quality books available in the library, the more knowledge can be learned.
+
+In this analogy, model size can be compared to a student's learning capacity.
+
+Students who can remember and internalize more information can make better use of a large library.
+
+Similarly, a larger AI model with more parameters can capture more intricate patterns and make more complex decisions based on information learned from the dataset.
+
+---
+
+## Performance vs Cost
+
+The larger an AI model's dataset and model size, the higher its performance can be expected to be.
+
+However, building the largest model is not always the best strategy because there is a trade-off between performance and cost efficiency.
+
+Challenges include:
+
+* Acquiring large, high-quality datasets.
+* Purchasing computing resources.
+* Training large models.
+* Operating large models after training.
+
+---
+
+## Why Budgeting Matters
+
+Budgeting is a crucial topic and a fundamental skill AI developers need to acquire.
+
+You should not start building an AI model and then decide how large it should be or how much it will cost during training.
+
+Instead, it is better to determine the available budget beforehand and decide how much will be allocated to:
+
+* Data acquisition
+* Computing power
+
+---
+
+## Real-World Costs
+
+Training GPT-4 cost OpenAI over $100 million.
+
+Most organizations cannot afford multiple attempts at training AI models.
+
+As a result, they must find the right balance between:
+
+* Model effectiveness
+* Cost efficiency
+
+---
+
+## Bigger Is Not Always Better
+
+Bigger AI models require more computing power during both training and operation.
+
+Creating a larger model should only be justified when the increase in effectiveness aligns with the organization's goals and resources.
+
+In some situations, building smaller models that can be retrained and fine-tuned frequently makes more sense.
+
+Training smaller, specialized models is often:
+
+* More cost-effective
+* Faster to train
+
+than using large amounts of resources to train a massive model for limited applications.

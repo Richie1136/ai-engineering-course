@@ -1,0 +1,53 @@
+# Latency
+
+## Why Latency Matters
+
+One key issue when building customer-facing applications is that today's users have low tolerance for slow loading times.
+
+The latency issue becomes even more critical when business customers use AI to boost productivity or build products based on AI models.
+
+In these situations:
+
+* Delays frustrate users.
+* Business operations are impacted.
+* Revenue can be affected.
+
+---
+
+## The Challenge with LLMs
+
+The biggest latency challenge for LLMs today is that they use an autoregressive architecture.
+
+In an autoregressive model, each word generated depends on the words that came before it.
+
+Because of this sequential process, each step must wait for the previous step to complete before generating the next word.
+
+---
+
+## Example
+
+Consider the sentence:
+
+"My favorite sport is basketball."
+
+If an LLM generated each word sequentially and required 0.2 seconds per word, it would take approximately one second to generate the complete sentence.
+
+---
+
+## Possible Solutions
+
+AI developers are exploring several approaches to reduce latency:
+
+* Alternative model architectures
+* Parallel computing
+* Model optimization
+
+---
+
+## Smaller Models
+
+One effective immediate strategy is to optimize model size.
+
+Smaller models are often faster than larger, more complex models.
+
+As a result, reducing model size can improve response speed and help create a better user experience.

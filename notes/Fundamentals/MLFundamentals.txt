@@ -1,0 +1,76 @@
+# Efficiency of LLM Training
+
+Large Language Models (LLMs) became possible through advances in machine learning training approaches.
+
+## Supervised Machine Learning
+
+In supervised machine learning, we provide labeled data to the computer.
+
+For example, if we want to train a model to distinguish between positive and negative customer reviews, we could create a dataset of 100,000 reviews and manually label each one as positive or negative.
+
+The computer uses these labels to learn how to categorize new, unseen reviews.
+
+### Advantages
+
+* Learns from known correct answers.
+* Can accurately categorize new data.
+
+### Limitations
+
+* Labeling data is expensive.
+* Labeling large datasets is time-consuming.
+* Costs increase as data complexity increases.
+* Scalability becomes difficult.
+
+Example:
+
+If labeling one review costs $0.30, labeling 100,000 reviews would cost $30,000.
+
+---
+
+## Unsupervised Machine Learning
+
+Unsupervised machine learning operates without labels.
+
+The model attempts to discover the underlying structure of the data without direct performance feedback.
+
+### Advantages
+
+* Does not require labeled data.
+* Can identify hidden patterns and relationships.
+
+### Limitations
+
+* No clear objective or target output.
+* Struggles to learn structures needed to understand or generate human language.
+* Does not prioritize predicting the next word based on context.
+* May overlook important language nuances.
+
+Language is highly contextual. Words create meaning through their relationships with surrounding words and sentences.
+
+---
+
+## The Need for a Balanced Approach
+
+We need a machine learning system that:
+
+* Scales efficiently.
+* Learns autonomously.
+* Understands context.
+* Generates labels automatically.
+
+---
+
+## Self-Supervised Learning
+
+Self-supervised learning was the breakthrough that led to the creation of LLMs.
+
+This approach:
+
+* Analyzes large text databases.
+* Automatically generates labels.
+* Predicts content based on contextual cues from surrounding words.
+
+By combining the strengths of supervised and unsupervised learning, self-supervised learning enabled the creation of models such as ChatGPT.
+
+This approach improved a model's ability to understand and generate language in a natural and context-aware way.

@@ -1,0 +1,110 @@
+# Future of AI
+
+## AI Market Growth
+
+Bloomberg reports that by 2032, the generative AI market could reach $1.3 trillion.
+
+For comparison, the annual GDP of the United States is approximately $25 trillion.
+
+PricewaterhouseCoopers (PwC) is even more optimistic, predicting that the AI market could reach $15.7 trillion by 2030.
+
+Although estimates differ, it is widely expected that the AI sector will experience significant growth.
+
+---
+
+## Three Critical Resources
+
+The future growth of AI depends on three essential resources:
+
+* Data
+* Electricity
+* Computing Power
+
+The availability and cost of these resources will influence the pace of AI development.
+
+---
+
+## The Data Challenge
+
+The availability of training data is becoming an increasingly important issue.
+
+Training AI models on:
+
+* Social media content
+* Proprietary website data
+* User-generated content
+
+can create ethical and legal concerns.
+
+As foundation models continue to grow, organizations may need to secure additional data through licensing agreements.
+
+Future possibilities include:
+
+* More content licensing deals
+* Restrictions on training with private data
+* User compensation for access to personal data
+
+---
+
+## AI-Generated Content
+
+As AI-generated content becomes more common on the internet, developers face new challenges.
+
+If future AI models are trained on large amounts of AI-generated content, potential issues include:
+
+* Feedback loops
+* Reduced accuracy
+* Increased bias
+
+This may become an important area of future research.
+
+---
+
+## Electricity Demand
+
+Large language models require substantial amounts of electricity.
+
+As AI adoption increases globally, demand for AI services and computing infrastructure is expected to grow significantly.
+
+Important considerations include:
+
+* Energy consumption
+* Carbon footprint
+* Impact on energy prices
+* Electrical grid capacity
+
+AI may play an important role in shaping future energy markets.
+
+---
+
+## Computing Power
+
+Developing and operating advanced AI models requires powerful computing hardware.
+
+High-performance AI chips have become a critical resource for AI development.
+
+The rapid growth of AI increased demand for semiconductors and positioned companies such as Nvidia to benefit from this trend.
+
+Although shortages currently exist, competition among semiconductor manufacturers may increase future supply.
+
+---
+
+## Open Source vs Closed Source
+
+Another major question is whether open source AI models will become competitive with proprietary models.
+
+Possible outcomes include:
+
+* Open source models becoming increasingly competitive
+* Large technology companies continuing to dominate the market
+* A combination of both approaches coexisting
+
+The future balance between open source and closed source AI remains uncertain.
+
+---
+
+## Looking Ahead
+
+Regardless of which organizations ultimately lead the market, AI is expected to have a transformative impact on society.
+
+The influence of AI may rival or even surpass the changes created by the internet and the broader digital revolution.

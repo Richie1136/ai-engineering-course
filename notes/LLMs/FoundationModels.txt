@@ -1,0 +1,71 @@
+# Foundation Models
+
+## Importance of Foundation Models
+
+Until recently, machine learning models developed by companies were limited to narrow applications.
+
+Examples:
+
+* Image Recognition models identified objects within images.
+* Speech Recognition systems converted spoken language into written text.
+* NLP (Natural Language Processing) models handled tasks such as sentiment analysis and translation.
+* Time series models predicted stock prices, market volatility, and related outcomes.
+
+These models excelled within a narrow range of tasks.
+
+---
+
+## The Rise of Large Language Models
+
+The introduction of Large Language Models (LLMs) led to a significant transition.
+
+LLMs have complex and sophisticated structures and are trained on massive amounts of data.
+
+Unlike earlier machine learning models, their capabilities are not confined to one or two specific tasks or domains.
+
+With fine-tuning and prompt engineering, LLMs can perform well across many different fields.
+
+---
+
+## From Text Models to Multimodal Systems
+
+Initially, LLMs were text-to-text models that generated responses from textual input.
+
+Over time, they expanded their capabilities and could work with:
+
+* Code
+* Excel files
+* PDF files
+* Images
+* Videos
+
+The transition from text-only systems to models capable of working with text, code, images, and video marked an important shift.
+
+---
+
+## Foundation Models
+
+The AI community uses the term Foundation Models to describe these systems.
+
+The name comes from the idea that these models serve as a foundational layer for applications across many disciplines.
+
+Characteristics:
+
+* Enormous in size
+* Capable of performing many different tasks
+* Extremely powerful
+* Support a wide range of applications
+
+---
+
+## The Future of Foundation Models
+
+Big technology companies want to compete in the foundation model market.
+
+Several governments may also seek to create their own foundation models.
+
+Other organizations may:
+
+* Build application-specific in-house models.
+* Build on top of existing foundation models.
+* Use foundation models created by the open-source community.

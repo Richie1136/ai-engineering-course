@@ -1,0 +1,198 @@
+# AI Strategist Role
+
+## What Is an AI Strategist?
+
+An AI Strategist focuses on overall business strategy and company goals.
+
+A key principle is that an AI strategy must be aligned with the firm's broader business strategy in order to be successful.
+
+---
+
+## How AI Can Benefit a Business
+
+AI can help a business by:
+
+* Selling better products and services
+* Improving company processes
+* Facilitating decision making
+
+---
+
+## Responsibilities of an AI Strategist
+
+An AI Strategist identifies and maps AI use cases that align with the company's business strategy.
+
+The company then pursues the use cases that are expected to have the highest impact.
+
+Despite its non-technical sounding title, AI Strategist is a technical role.
+
+Key responsibilities include:
+
+* Identifying viable AI use cases
+* Helping execute AI initiatives
+* Determining the optimal type of AI model
+* Comparing performance and costs of different solutions
+* Planning production deployment
+* Integrating AI into existing products
+* Evaluating AI performance
+* Optimizing deployed AI systems
+
+---
+
+## AI Evangelism
+
+Another important responsibility is AI evangelism.
+
+This involves:
+
+* Promoting AI adoption throughout the company
+* Helping employees understand AI
+* Demonstrating how AI can improve competitiveness
+
+---
+
+## Typical Background
+
+This is a relatively new role and requirements continue to evolve.
+
+In many cases, an AI Strategist has a background as a:
+
+* Data Scientist
+* Machine Learning Professional
+* AI Professional
+
+They typically possess extensive experience in:
+
+* Data
+* Machine Learning
+* AI
+
+They have also worked closely with business stakeholders and understand what drives business value.
+
+---
+
+## Required Skills
+
+An AI Strategist should possess:
+
+### Technical Skills
+
+* Data expertise
+* Machine Learning expertise
+* AI expertise
+* Development experience
+
+### Business Skills
+
+* Business understanding
+* Strategic thinking
+* Understanding of project impact
+
+### Soft Skills
+
+* Communication
+* Project Management
+* Stakeholder Management
+
+---
+
+## Career Level
+
+AI Strategists are often hired into senior leadership positions such as:
+
+* Director
+* Head of AI
+* Vice President
+
+In some organizations, they may even hold C-suite positions.
+
+Because individuals with this combination of technical, business, and leadership skills are rare, organizations are often willing to compensate them exceptionally well.
+
+---
+
+## Consultants vs Full-Time Roles
+
+Some organizations hire AI Strategists as consultants rather than full-time employees.
+
+### Advantages
+
+* Lower cost
+* Exposure to industry best practices
+* Experience across multiple companies
+
+### Drawbacks
+
+* Less time to understand the business deeply
+* AI strategy may become a one-time project rather than an ongoing initiative
+
+
+For * Determining the optimal type of AI model
+
+Determining the optimal type of AI model means selecting the AI approach that best solves the business problem while considering performance, cost, and implementation complexity.
+
+
+Basically what its saying is based on the problem what is the best options
+
+Example
+
+User asks: 
+
+"Compute Jayson Tatum and Anthony Edwards" - GPT / LLM
+
+Reason:
+
+* Language Task 
+* Requires reasoning and explanation
+* Text input => Text output
+
+User uploads a basketball photo
+
+"Who has possession of the ball?" - Computer Vision
+
+Reason:
+
+* Image task
+* Requires object/player detection
+* Image input => Analysis 
+
+User asks:
+
+"Predict next month's house prices" - Machine Learning 
+
+Reason:
+
+* Prediction problem
+* Historical data available
+
+User asks:
+
+"Recommend movies based on what I've watched" - Machine Learning / Reinforcement Learning 
+
+Machine Learning predicts what users might like 
+Reinforcement Learning improves recommendations based on user actions over time.
+
+Reason:
+
+* Recommendation system 
+* Learns from user behavior
+
+Recommendation System
+├── Machine Learning
+│   └── Predicts what the user might like
+│
+└── Reinforcement Learning
+    └── Learns from user feedback and improves recommendations over time
+
+
+User asks:
+
+"Answer questions about these company PDFs" - GPT + RAG + Vector Database
+
+GPT => Understands questions and generates answers
+Vector Database => Stores document embeddings
+RAG => Retrieves the relevant document content and gives it to GPT
+
+Reason:
+
+* Language understanding
+* Needs access to external documents

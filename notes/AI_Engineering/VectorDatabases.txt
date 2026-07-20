@@ -1,0 +1,120 @@
+# Vector Databases
+
+## Relational Databases vs Vector Databases
+
+Relational databases organize information in rows and columns.
+
+This makes them ideal for structured data.
+
+However, they are not optimal for unstructured data such as:
+
+* Text
+* Images
+* Video
+* Audio
+
+To convert multimedia into a format that computers can understand, we use vector embeddings.
+
+These embeddings are then stored and organized in a vector database.
+
+---
+
+## What Is Stored in a Vector Database?
+
+A vector database stores arrays of numbers known as vector embeddings.
+
+These vectors are clustered together based on similarity.
+
+Videos, documents, images, and other forms of content can be represented as vectors and organized according to their relationships with one another.
+
+---
+
+## Example: YouTube
+
+Imagine a YouTube database containing millions of videos.
+
+Videos can be grouped according to categories such as:
+
+* Vlogs
+* Gaming Videos
+* Tutorials
+* How-To Videos
+* Tech Reviews
+* Music
+
+The goal is to organize and index these videos to enable fast retrieval and search.
+
+Videos with similar content are positioned closer together in vector space.
+
+---
+
+## Similarity Search
+
+Vector databases organize information using similarity metrics.
+
+These metrics measure how close or distant vectors are from one another.
+
+Similarity can be based on:
+
+* Genre
+* Content
+* Length
+* Stylistic characteristics
+
+This allows the database to search based on meaning and context rather than exact matches.
+
+---
+
+## Performance Challenges
+
+Some applications may contain millions of vector embeddings.
+
+Searching through millions of vectors directly would be slow.
+
+To ensure fast retrieval, vector databases:
+
+* Use indexing
+* Use machine learning techniques
+* Optimize similarity searches
+
+---
+
+## Search Applications
+
+One of the primary use cases of vector databases is search.
+
+Vector databases support:
+
+* Similarity Search
+* Search Based on Meaning
+* Search Based on Context
+
+---
+
+## Long-Term Memory for LLMs
+
+One of the most interesting applications of vector databases is providing long-term memory for LLMs.
+
+Past interactions and learned information can be stored as vectors.
+
+The model can then reference this information to better understand context.
+
+Example:
+
+A chatbot assistant can store information from previous conversations and use it to provide more informed responses.
+
+---
+
+## Popular Vector Databases
+
+Popular vector databases include:
+
+* Pinecone
+* Weaviate
+* Milvus
+* Chroma
+* Elasticsearch
+
+Pinecone is highly popular but is not open source.
+
+Weaviate, Milvus, Chroma, and Elasticsearch are popular open-source alternatives.

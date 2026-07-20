@@ -1,0 +1,27 @@
+Computer Vision
+
+Definition
+
+Computer Vision is an AI field that uses machine learning and neural networks to teach computers to derive meaningful information from digital images and videos.
+
+How Computer Vision Works
+
+- Images
+- Videos
+- Frame Processing
+
+Main Computer Vision Models
+
+1. CNNs
+2. Transformers
+3. GANs
+4. U-Net
+
+Applications
+
+- Self-driving Cars
+- Medical Imaging
+- Security
+- Surveillance
+- Robotics
+- Virtual Reality

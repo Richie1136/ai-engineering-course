@@ -1,0 +1,56 @@
+# Foundation Models vs Private Models
+
+## Build vs Buy
+
+This decision determines whether to outsource specific company processes or retain them internally.
+
+The golden rule MBA graduates are taught is that a company should try to retain internally all strategic value-adding activities because they are essential for business.
+
+Management can externally delegate non-core activities aimed at efficiency.
+
+---
+
+## Building Foundation Models
+
+Few companies and organizations worldwide will be able to build their own foundation models.
+
+Creating foundation models is costly and requires significant scale.
+
+Most companies face a critical choice:
+
+* Build on an existing foundation model.
+* Develop their own version from an open-source model.
+
+---
+
+## Using Existing Foundation Models
+
+In many cases, firms lack the expertise and resources required to train a custom model.
+
+However, they still recognize AI as a core value-adding component of their business.
+
+As a result, many companies rely on organizations such as OpenAI that provide access to foundation models through a model-as-a-service arrangement.
+
+---
+
+## The Real Competitive Advantage
+
+AI can be a core value-generating aspect of a business, but AI availability and development do not fully depend on a company's in-house efforts.
+
+The true differentiating factor is the ability to adapt AI to specific use cases.
+
+Key areas include:
+
+* Prompt Engineering
+* Retrieval-Augmented Generation (RAG)
+* Fine-Tuning
+
+The expertise of in-house AI engineers in these areas can help businesses gain an edge over competitors.
+
+---
+
+## Future Outlook
+
+The demand for skilled AI engineers is expected to surge in the near future.
+
+These developments represent a significant paradigm shift that is likely to continue.

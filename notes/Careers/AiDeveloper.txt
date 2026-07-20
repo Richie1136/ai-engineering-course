@@ -1,0 +1,120 @@
+# AI Developer
+
+## AI Developer vs AI Engineer
+
+AI Developer builds foundation AI models.
+
+AI Engineer builds applications on top of foundation models.
+
+Examples of foundation models include:
+
+* GPT
+* Gemini
+* BERT
+* Llama
+* Claude
+
+Building foundation models requires significant financial resources and technical expertise.
+
+---
+
+## The Goal of an AI Developer
+
+Organizations that build foundation models must innovate and compete in a rapidly evolving AI landscape.
+
+As a result, AI developers spend a significant amount of time researching new techniques and pushing the boundaries of AI capabilities.
+
+Research and development (R&D) is a core part of the role.
+
+---
+
+## Model Design
+
+AI developers help determine:
+
+* The optimal architecture
+* The model design
+* The type of neural network
+* The number of layers and model depth
+
+These decisions influence the capabilities and performance of the model.
+
+---
+
+## Dataset Engineering
+
+Once the model design is complete, AI developers begin dataset engineering.
+
+This includes:
+
+* Collecting data
+* Cleaning data
+* Structuring data
+
+These preparations are necessary before pre-training can begin.
+
+---
+
+## Pre-Training
+
+The model is trained on a large corpus of raw data.
+
+Training is expensive and requires careful execution because mistakes can be costly.
+
+---
+
+## Evaluation and Refinement
+
+After training, AI developers:
+
+* Conduct preliminary evaluations
+* Refine the model using higher-quality data
+* Use prompt engineering
+* Continue evaluating and improving the model
+
+This process continues until the model is ready for production.
+
+---
+
+## Technical Skills
+
+AI developers require strong technical skills, including:
+
+### Programming
+
+* Python
+* NumPy
+* Pandas
+
+### Mathematics
+
+* Statistics
+* Linear Algebra
+* Calculus
+* Probability
+
+### AI Knowledge
+
+* Deep Learning
+* Transformers
+* NLP
+* Semantic Similarity
+* Vector Embeddings
+* Tokenization
+
+### Infrastructure
+
+* Docker
+* DevOps Practices
+* API Design
+* Cloud Software
+
+---
+
+## Career Outlook
+
+AI development is one of the most demanding roles in technology.
+
+Relatively few people possess the skills required to build foundation models.
+
+AI engineering is slightly less demanding but is becoming one of the fastest-growing careers in technology.

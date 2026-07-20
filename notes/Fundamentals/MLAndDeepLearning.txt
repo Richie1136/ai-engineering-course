@@ -1,0 +1,200 @@
+Artificial Intelligence (AI)
+└── Machine Learning (ML)
+    ├── Supervised Learning
+    ├── Unsupervised Learning
+    ├── Reinforcement Learning
+    └── Deep Learning (DL)
+        └── Neural Networks
+
+# Machine Learning
+
+Machine Learning - Is a subset of AI that enables computers to learn patterns from data and improve performance on a task without being explicitly programmed for every rule.
+
+Consider building a machine learning model similar to a student taught by a teacher. In this case, the machine learning model is the student and the data scientist is the teacher.
+
+The teacher's role is to help the student learn how to solve problems. To do this well, the teacher must provide the student with many suitable learning materials, which in the world of machine learning means providing a lot of good data.
+
+With sufficient information, the student carefully studies and absorbs the training materials. Similarly, the machine learning algorithm learns to recognize patterns in the fed training data.
+
+The aim is to prepare students to succeed on their final exam, featuring unfamiliar questions that test previously covered material. In the ML model's case, we aim to teach it how to solve a particular problem with data it has never seen.
+
+The more up to date and better training data, the better the model can solve new challenging problems it has never seen without adequate training.
+
+A simple model with lots of good data might do better than a more complicated one with less data.
+
+In machine learning, models improve prediction and analysis as they encounter new data types and updated algorithms.
+
+This continuous learning and adaptation process is crucial to developing robust AI systems that can handle diverse challenges and evolve.
+
+Certain ML models are better suited to specific problems. The data scientist needs to understand this and be able to use the appropriate ML models in a given situation.
+
+## How Can ML Help Businesses?
+
+You can develop a machine learning model to predict house prices in a city by analyzing past real estate transactions in your training data set.
+
+We need to train a machine learning algorithm with historical data to discover patterns and learn the best way to predict the future price of a home based on past transactions and the home's known characteristics.
+
+Clients enter their home's characteristics into the app. This forms the input.
+
+The ML model then generates an output, predicting the home's price based on similar historical data.
+
+# Types of Machine Learning
+
+## Supervised Learning
+
+Supervised learning excels when we work with labeled data.
+
+The training data set reveals whether a picture contains a dog. This is how the algorithm can learn to classify new pictures as dog or not dog.
+
+Later, when we provide a new picture, it can identify whether it contains a dog based on the feedback given during training.
+
+This is a classification problem solved by supervised ML.
+
+The other primary application of supervised learning is predicting an outcome.
+
+The house price prediction example is also supervised learning, but it is used for prediction, also called a regression problem.
+
+In supervised learning, we explicitly train the model with known outputs to guide its learning.
+
+## Unsupervised Learning
+
+Unsupervised learning processes data without labels.
+
+For example, in a data set of 10,000 animal pictures, half feature dogs and the other half various animals, but we provide the machine learning model with no labels or indications.
+
+It scans the pictures and looks for patterns.
+
+Ultimately, it will be able to distinguish specific groups and individuate them.
+
+The ML model does not specify what is in the images. It only identifies that they share similar characteristics.
+
+Unsupervised learning is helpful because:
+
+* Labeling data is costly.
+* We may not know what relationships to look for.
+* The algorithm can discover interesting patterns on its own.
+
+Examples:
+
+* A supermarket chain finding customer clusters with different behaviors.
+* A real estate agent determining which property types sell most often.
+
+## Reinforcement Learning
+
+Reinforcement Learning operates without labeled data and is applied in specific scenarios where the machine figures out how to reach a designated goal.
+
+Unlike supervised learning, we do not provide labeled data. Instead, we create rules.
+
+The ML model learns through trial and error within those rules.
+
+Reinforcement Learning thrives in robotics and online recommendation systems.
+
+For example, platforms like Netflix use reinforcement learning to enhance recommendation systems.
+
+Reinforcement Learning is a type of Machine Learning where an agent learns through trial and error by receiving rewards or penalties for its actions.
+
+It is commonly used in:
+
+* Robotics
+* Game-playing AI
+* Recommendation systems
+
+For example, a streaming platform may recommend shows to a user.
+
+Positive interactions such as:
+
+* Watching a full episode
+* Adding a show to a watchlist
+
+act as rewards.
+
+Negative interactions such as:
+
+* Skipping a show
+
+act as penalties.
+
+Over time, the model continuously improves its ability to predict content that aligns with the user's preferences.
+
+# Deep Learning
+
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple hidden layers to learn complex patterns from large amounts of data.
+
+# Neural Networks
+
+Neural Network - A machine learning model composed of interconnected nodes (neurons) organized into input, hidden, and output layers that learn patterns from data.
+
+Instead of being explicitly programmed with rules, a neural network learns patterns from data.
+
+Every intermediate layer of the neural network builds a more detailed understanding of the basic features identified by earlier layers.
+
+The deeper layers of the network synthesize lower-level features into high-level features, representing more complex aspects of the input data.
+
+This is a complex process that allows machines to learn by processing input information in stages.
+
+We call this neural network an Artificial Neural Network (ANN).
+
+## ANN Structure
+
+* Input Layer
+* Hidden Layers
+* Output Layer
+
+The input layer sends raw data into the network.
+
+The hidden layers process input information.
+
+Neural networks can have one or multiple hidden layers. Adding more layers increases learning capacity but also increases complexity.
+
+The output layer generates the final result.
+
+Every layer is made up of neurons (nodes) responsible for processing and transforming information.
+
+## Example: Recognizing Handwritten Digits
+
+Training a model to recognize handwritten digits involves supplying it with thousands of pre-labeled examples.
+
+The process starts with the input layer receiving an image of a handwritten digit.
+
+Each pixel serves as an input node.
+
+For MNIST images:
+
+* 28 × 28 pixels
+* 784 input nodes
+
+Each node contains a number based on brightness.
+
+* 0 represents white.
+* Values greater than 0 represent darker pixels.
+
+The network comprises:
+
+* Input Layer
+* Three Hidden Layers
+* Output Layer
+
+This gives a total depth of five layers.
+
+Each layer is connected to the next through many connections.
+
+These connections perform mathematical transformations using weights and non-linear operations.
+
+Learning occurs by finding the optimal combination of weights and biases through thousands of repetitions.
+
+## Learning the Number Three
+
+The number three contains:
+
+* A rounded top
+* A curved bottom
+
+The first hidden layer may learn to recognize edges and curves.
+
+The second hidden layer combines those features into more complex shapes.
+
+The third hidden layer recognizes the overall shape and configuration representing the number three.
+
+Finally, the output layer determines whether the digit is three.
+
+This is how a neural network learns pattern recognition and data interpretation from large, high-dimensional data sets.

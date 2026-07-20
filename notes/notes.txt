@@ -1,0 +1,66 @@
+# Notes Related to AI Engineering
+
+## Artificial Intelligence (AI)
+
+AI (Artificial Intelligence) aims to make machines intelligent, allowing them to learn and acquire new skills.
+
+Artificial Intelligence is a broad discipline encompassing several subfields.
+
+---
+
+## Machine Learning (ML)
+
+Machine Learning is one of AI's key subfields.
+
+It uses data to discover complex patterns and relationships so it can make predictions about future outcomes.
+
+Essentially, we feed input data to a model, which processes the data in a certain way and produces an output.
+
+Example:
+
+If you watch a YouTube video about personal finance, YouTube's machine learning system may recommend other personal finance videos because it has learned that users who watch one often watch the others.
+
+---
+
+## Data Science
+
+AI and Machine Learning are an essential part of data science.
+
+Every data scientist worth their salt can work with machine learning algorithms.
+
+However, data scientists often use other statistical methods such as:
+
+- Data Visualization
+- Statistical Inference
+
+Often, they aim to extract insights from data without relying on machine learning.
+
+Data Science has an important intersection with AI and Machine Learning, but also relies on math, statistics, and data visualization to gain business value from data.
+
+Example:
+
+A data scientist can develop a sophisticated algorithm to predict future client orders, but they can also plot client orders against store visits and uncover valuable business insights.
+
+---
+
+## Narrow AI
+
+Narrow AI is a machine that is able to perform a specific task that it has been designed to do.
+
+Examples:
+
+- ChatGPT
+- Netflix Recommendations
+- YouTube Recommendations
+- Self-driving features
+- Spam filters
+
+---
+
+## Artificial General Intelligence (AGI)
+
+Artificial General Intelligence (AGI) is a theoretical form of AI that would be capable of performing a wide variety of tasks at or above human-level intelligence.
+
+AGI will generally be more intelligent and capable than humans in several tasks.
+
+Many believe that for an AI to be considered AGI, it should be able to create science on its own by using collectively available knowledge to make new discoveries and ideas.

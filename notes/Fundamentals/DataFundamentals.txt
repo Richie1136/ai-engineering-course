@@ -1,0 +1,105 @@
+Data
+
+Types of Data
+
+Structured
+
+* Organized into rows and columns.
+* For example Excel.
+
+Unstructured
+
+* Text files, images, videos and audio lack a defined structure and cannot be organized into rows and columns.
+* 80 to 90% of all the world's data is unstructured data.
+* This means that most data doesn't have this simple row column predefined field structure.
+
+With recent advancements in AI, companies have found a way to turn unstructured data into valuable insights, with companies like Meta and Google excelling in this area. Analyzing unstructured data is opening up enormous opportunities for businesses. Organizations now have access to billions of photographs, videos, text messages, and emails. They can use this information to gain unprecedented insights.
+
+---
+
+Data Representation
+
+MNIST
+
+* A popular machine learning dataset consisting of handwritten digits (0-9) used to train and evaluate image recognition models.
+
+Video
+
+* A video consists of thousands of images (frames), each composed of hundreds or millions of pixels.
+* Each pixel in turn corresponds to a number represented in binary form with only zeros and ones.
+
+Audio and Text
+
+* Even sound and written speech can be represented as sequences of zeros and ones.
+* AI systems use this information to find patterns, identify similarities, and ultimately learn how to perform different types of tasks.
+
+---
+
+Data Collection
+
+AI researchers aspire to provide machines with these capabilities, utilizing tools that collect data through:
+
+* Sensors
+* Video
+* Audio
+* Text
+* Social media
+* Satellite images
+* Internet browsing patterns
+
+They gather information by:
+
+* Scraping the web
+* Accessing APIs
+* Harnessing big data analytics
+
+This wealth of data enables them to train algorithms, refine machine learning models, and enhance AI systems to better understand and interact with the world.
+
+---
+
+Data Quality
+
+Data scientists often say, especially when building AI models:
+
+"Garbage in, garbage out."
+
+High-quality data input ensures high-quality model output.
+
+---
+
+Two Primary Methods for Collecting and Preparing Data for AI Modeling
+
+Labeled Data
+
+* Data that already has the correct answer attached to it.
+* We can classify comments as positive, negative, or neutral.
+* To train a model that categorizes new platform comments and flags harmful ones, manually labeling is undoubtedly time consuming and expensive.
+* The advantage is that in the end, we'll be able to train an AI model with high quality data that can significantly improve its accuracy.
+
+Models trained on labeled data are typically more reliable and perform better in real-world applications.
+
+However, a clear trade-off exists between the time and resources spent labeling data and the resulting model performance.
+
+Unlabeled Data
+
+* The Machine Learning model has to find patterns on its own instead of learning from provided answers.
+
+---
+
+Metadata
+
+Much of the data we use is unstructured and too voluminous to label.
+
+Metadata proves invaluable here.
+
+Metadata is data that describes other data.
+
+It summarizes key details such as:
+
+* Asset type
+* Author
+* Creation date
+* Usage
+* File size
+
+Whether you handle structured or unstructured, labeled or unlabeled data, it's essential to include metadata, especially in large data sets and complex systems.
