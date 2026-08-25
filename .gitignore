@@ -1,6 +1,7 @@
 venv/
 notes/data
 notes/LLMs/GPT/config.py
+notes/LLMs/LangChain/.env
 __pycache__/
 notes/LLMs/XLNet/fine_tuned_model/
 notes/LLMs/XLNet/test_trainer/
