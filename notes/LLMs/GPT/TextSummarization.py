@@ -1,6 +1,11 @@
 from openai import OpenAI
 import config
 
+# WHY: Language models can transform long, unstructured text into smaller
+# representations such as keywords or summaries. Clear instructions and output
+# constraints make the result easier for another person or program to consume.
+# Mental model: source text + transformation instruction -> condensed text.
+
 # =============================================================================
 # OpenAI Client
 # =============================================================================

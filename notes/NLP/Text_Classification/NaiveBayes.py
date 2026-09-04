@@ -4,6 +4,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 
+# WHY: Multinomial Naive Bayes is a useful baseline for word-count data because
+# it learns how strongly each word is associated with each class. The complete
+# workflow is labels + text -> numeric features -> train -> predict -> evaluate.
+
 
 # =====================================================
 # Create the Dataset

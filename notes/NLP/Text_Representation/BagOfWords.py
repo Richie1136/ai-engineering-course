@@ -1,4 +1,10 @@
 import pandas as pd
+
+# WHY: Machine-learning models require numeric input. Bag of Words creates one
+# feature per vocabulary term and records how often it occurs in each document.
+# It is simple and interpretable, but it discards word order and gives common
+# words the same kind of importance as more informative ones.
+
 from sklearn.feature_extraction.text import CountVectorizer  # Scikit-learn is a powerful machine learning library in Python, and
                                                              # CountVectorizer is one of its tools for text processing. It transforms
                                                              # a collection of text documents into a matrix of token counts. In other words,

@@ -1,6 +1,11 @@
 from openai import OpenAI
 import config
 
+# WHY: A chatbot is controlled by the entire ordered conversation, not only the
+# latest question. The system message sets behavior, example assistant messages
+# demonstrate it, and the new user message asks the model to continue the same
+# pattern. This is few-shot prompting through conversation history.
+
 # =============================================================================
 # OpenAI Client
 # =============================================================================

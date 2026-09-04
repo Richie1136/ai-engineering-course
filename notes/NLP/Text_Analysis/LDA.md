@@ -22,8 +22,8 @@ A document can obviously contain words from more than one topic, but we make the
 
 In this example:
 
-* **Climate Change:** climate, change, environmental, sustainability
-* **Politics:** politicians, policies
+- **Climate Change:** climate, change, environmental, sustainability
+- **Politics:** politicians, policies
 
 ---
 
@@ -39,7 +39,7 @@ We then move to the second iteration, where we go through each individual word i
 
 LDA corrects the assignment by looking at:
 
-* The proportion of words in the current document assigned to a topic.
-* The number of times that word is assigned to a specific topic in other documents.
+- The proportion of words in the current document assigned to a topic.
+- The number of times that word is assigned to a specific topic in other documents.
 
 The algorithm repeats this process multiple times until it reaches a steady state. It then produces the final topic assignments for us to investigate.

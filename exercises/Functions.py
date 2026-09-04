@@ -1,3 +1,8 @@
+# WHY: Functions package a calculation or procedure under a reusable name.
+# Parameters make the behavior reusable with different inputs, while `return`
+# sends a result back to the caller. This file moves from custom functions to
+# built-ins and then to short, single-expression lambda functions.
+
 # def - keyword
 
 

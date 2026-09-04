@@ -4,6 +4,11 @@ from transformers import (
 )
 import torch
 
+# WHY: A pipeline hides preprocessing and tensor operations; direct tokenizer
+# and model calls reveal them. This matters when fine-tuning, batching, moving
+# tensors to a device, or inspecting raw logits. Mental model: text -> tokenizer
+# -> tensors -> model -> logits -> predicted label.
+
 
 # Hugging Face integrates seamlessly with popular deep learning frameworks
 # such as PyTorch and TensorFlow.

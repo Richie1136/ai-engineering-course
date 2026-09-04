@@ -4,6 +4,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import SGDClassifier
 from sklearn.metrics import accuracy_score
 
+# WHY: A classifier cannot learn directly from sentences, so CountVectorizer
+# first converts text into numeric word-count features. A linear support vector
+# machine then learns a separating boundary between sentiment classes. Holding
+# out test data checks whether that boundary generalizes to unseen examples.
+
 
 data = pd.DataFrame(
     [

@@ -1,6 +1,11 @@
 from openai import OpenAI
 import config
 
+# WHY: Wrapping an API request in a function separates the changing input from
+# the repeated client/model settings. Callers can request many generations
+# without duplicating request construction, and the returned text can be used
+# elsewhere instead of being trapped inside a print statement.
+
 # =============================================================================
 # OpenAI Client
 # =============================================================================

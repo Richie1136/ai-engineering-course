@@ -1,3 +1,8 @@
+# WHY: Loops repeat work without duplicating code. Use `for` when iterating over
+# known items and `while` while a condition remains true. The dictionary example
+# shows a practical pattern: visit each key and combine related values into a
+# running total.
+
 # iteration is the ability to execute a 
 # certain code repeatedly
 

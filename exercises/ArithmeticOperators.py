@@ -1,3 +1,8 @@
+# WHY: Programs use arithmetic operators to turn stored numbers into new
+# values. This file compares the main operators, then shows that a calculation
+# can be stored, compared, and updated. Mental model: operands are the inputs;
+# the operator describes the calculation; the expression produces a value.
+
 # 1 and 2 are Operands
 print(1 + 2)
 # 3 and 5 are Operands

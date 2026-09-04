@@ -1,3 +1,8 @@
+# WHY: Text rarely arrives ready for analysis. This file moves from basic string
+# conversion and normalization to stop-word removal and regular expressions.
+# Mental model: normalize text -> remove irrelevant pieces -> use patterns to
+# find, filter, or replace the information the application needs.
+
 x4 = "Robert"
 print(x4)
 

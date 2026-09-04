@@ -4,6 +4,13 @@ from nltk.stem import PorterStemmer, WordNetLemmatizer
 from nltk.corpus import stopwords # For words that don't add much meaning
 import re # For regular expressions
 import pandas as pd # A Python library for working with structured data. 
+
+# WHY: Real reviews contain casing, punctuation, common filler words, and word
+# variants that inflate the vocabulary without always adding meaning. This
+# project builds cleaned columns step by step so each transformation remains
+# inspectable. Mental model: preserve raw data -> normalize a copy -> tokenize ->
+# remove noise -> stem or lemmatize for later analysis.
+
 # The Porter stemmer is a classic rule-based algorithm that reduces English words to a simpler base.
 # looks it up in the WordNet dictionary to return its proper form
 

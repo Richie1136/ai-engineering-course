@@ -1,5 +1,9 @@
 from transformers import AutoTokenizer
 
+# WHY: Neural networks process numbers, not raw sentences. A pretrained
+# tokenizer applies the exact vocabulary and splitting rules expected by its
+# matching model, then adds special tokens, padding, and attention information.
+
 
 # The Transformers pipeline automatically handles tokenization for us.
 # However, we can also work directly with a tokenizer when we want more

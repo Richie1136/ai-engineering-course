@@ -1,3 +1,8 @@
+# WHY: A list comprehension expresses “transform or filter every item” in one
+# expression. It is useful when the goal is to build a new list; a normal loop
+# is often clearer when the logic has several steps or side effects.
+# Mental model: [output for item in source if condition].
+
 # List Comprehensions - One of Python's most distinguishable
 # features
 

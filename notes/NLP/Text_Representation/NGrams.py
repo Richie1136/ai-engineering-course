@@ -1,5 +1,9 @@
 # Ngrams.py
 
+# WHY: Single-word features lose local word order. N-grams preserve short
+# sequences, allowing a model to distinguish phrases such as "not good" from
+# "good". Larger n captures more context but also creates more, rarer features.
+
 # N-grams help us analyze the relationship between neighboring words. An N-gram is simply a
 # sequence of n tokens. The value of n tells us how many words are grouped together. When n
 # equals one, we have single words called unigrams. When n equals two, we have pairs of

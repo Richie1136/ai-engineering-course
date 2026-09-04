@@ -7,6 +7,18 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+# ---------------------------------------------------------
+# Quick reference
+# ---------------------------------------------------------
+
+# Purpose: answer questions using information from a webpage rather than
+# relying only on the model's training data.
+# Flow: load page -> split text -> embed chunks -> store them in FAISS ->
+# rewrite follow-up questions -> retrieve relevant chunks -> answer with the
+# retrieved context while retaining conversation history.
+# This pattern is Retrieval-Augmented Generation (RAG). Retrieval supplies the
+# evidence; the chat model turns that evidence into a useful response.
+
 
 # Helps identify your application when WebBaseLoader requests the website.
 os.environ.setdefault(

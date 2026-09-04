@@ -1,3 +1,8 @@
+# WHY: Conditional statements let a program choose which code to execute based
+# on Boolean conditions. This file progresses from `if`/`else` decisions to
+# combining conditions, returning different function results, and making a
+# decision during each loop iteration.
+
 if (5 == 15 / 3):
     print("Hooray")
 

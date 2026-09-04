@@ -4,6 +4,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
+# WHY: This lesson compares two ways to represent text numerically before using
+# logistic regression. Bag of Words emphasizes frequency; TF-IDF reduces the
+# influence of words common across many documents. The train/test split and
+# metrics reveal whether either representation generalizes beyond training data.
+
 
 # CountVectorizer converts text into a Bag of Words representation by counting
 # how many times each word appears.

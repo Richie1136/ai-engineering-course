@@ -3,6 +3,16 @@ import os
 from langchain_openai.chat_models import ChatOpenAI
 
 # =====================================================
+# Quick Reference
+# =====================================================
+
+# Purpose: send a basic text prompt through LangChain's OpenAI wrapper.
+# Flow: load environment variables -> configure ChatOpenAI -> call invoke()
+#       -> read the generated text from AIMessage.content.
+# Key idea: ChatOpenAI returns a message object, not a plain string. The object
+# also carries useful metadata about the model response.
+
+# =====================================================
 # Load the API Key
 # =====================================================
 

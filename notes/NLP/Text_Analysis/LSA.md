@@ -14,10 +14,10 @@ Singular Value Decomposition (SVD) recreates text documents into different vecto
 
 The vectors can be expressed by the following equation:
 
-* **M** - Document Term Matrix (rows are each individual document and columns are our terms).
-* **U** - Document Topic Matrix (columns are our topics).
-* **Sigma** - A vector whose values express how much each latent topic explains the variance in the overall data.
-* **Vᵀ** - Terms Document Matrix (rows are our topics and columns are our terms). The small **T** means the matrix is transposed.
+- **M** - Document Term Matrix (rows are each individual document and columns are our terms).
+- **U** - Document Topic Matrix (columns are our topics).
+- **Sigma** - A vector whose values express how much each latent topic explains the variance in the overall data.
+- **Vᵀ** - Terms Document Matrix (rows are our topics and columns are our terms). The small **T** means the matrix is transposed.
 
 ---
 

@@ -1,5 +1,11 @@
 # PracticalTaskPOSAndNER.py
 
+# WHY: This project turns raw news articles into grammatical and entity-level
+# information. Preprocessing reduces noise, POS tagging describes how words
+# function, and NER extracts real-world people, places, and organizations that
+# can be counted and analyzed. Mental model: articles -> clean tokens -> tags and
+# entities -> tables/plots that answer questions about the corpus.
+
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords

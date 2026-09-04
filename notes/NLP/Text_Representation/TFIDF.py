@@ -2,6 +2,11 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer  # Scikit-learn provides the TfidfVectorizer class,
                                                              # which automatically performs TF-IDF calculations.
 
+# WHY: Raw counts can let frequent but uninformative words dominate. TF-IDF
+# keeps a word's within-document frequency while reducing the weight of words
+# found in nearly every document. The resulting numeric matrix is generally a
+# more informative input for search, similarity, and classification.
+
 
 # Using TF-IDF to vectorize text can be a stronger approach than the Bag of
 # Words model because it preserves more information about the importance of

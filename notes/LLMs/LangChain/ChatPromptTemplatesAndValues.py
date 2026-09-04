@@ -8,6 +8,11 @@ from langchain_core.prompts.chat import (
     ChatPromptTemplate
 )
 
+# WHY: Chat templates keep the structure and roles of a conversation fixed
+# while allowing runtime values to change. This prevents repeated string
+# assembly and produces typed messages that a chat model can consume directly.
+# Mental model: templates + variables -> ChatPromptValue -> chat model.
+
 
 # =====================================================
 # Load the API Key
@@ -29,7 +34,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 chat = ChatOpenAI(
     model="gpt-5-mini",
     temperature=0,
-    model_kwargs={"seed": 365},
+    seed=365,
     max_completion_tokens=1000
 )
 

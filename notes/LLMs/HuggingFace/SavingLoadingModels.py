@@ -3,6 +3,11 @@ from transformers import (
     AutoModelForSequenceClassification
 )
 
+# WHY: Saving freezes the learned model weights, configuration, and tokenizer
+# vocabulary so inference can be reproduced later without retraining or relying
+# on a network download. The tokenizer must be saved with the model because
+# they form one compatible text-processing system.
+
 
 # Hugging Face makes it easy to save and reload models and tokenizers.
 

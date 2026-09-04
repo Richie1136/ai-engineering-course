@@ -1,3 +1,8 @@
+# WHY: A dictionary retrieves a value by a meaningful key instead of a numeric
+# position. Use one when data naturally forms relationships such as department
+# -> workers, basketball position -> player, or company -> share price.
+# Mental model: key is the label; value is the information stored under it.
+
 # Dictionaries represent another way of 
 # storing data
 

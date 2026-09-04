@@ -5,6 +5,11 @@ from transformers import (
     DistilBertModel,
 )
 
+# WHY: BERT variants keep the Transformer encoder idea but change training or
+# model size to optimize different goals. Comparing them makes model selection
+# a trade-off among accuracy, training method, memory, and inference speed—not
+# simply a choice of whichever name is newest.
+
 
 # =====================================================
 # BERT Variants

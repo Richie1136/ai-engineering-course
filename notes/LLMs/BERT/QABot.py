@@ -2,6 +2,11 @@ from transformers import BertForQuestionAnswering
 from transformers import BertTokenizer
 import torch
 
+# WHY: This prototype turns BERT's answer-span mechanics into a reusable FAQ
+# function. A customer question and a trusted passage are encoded together;
+# BERT locates the most likely answer inside that passage. Because the answer is
+# extractive, the quality and relevance of the supplied context are essential.
+
 
 # =====================================================
 # FAQ Chatbot

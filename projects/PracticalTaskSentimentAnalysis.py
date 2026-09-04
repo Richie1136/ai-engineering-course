@@ -4,6 +4,11 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from transformers import pipeline
 import matplotlib.pyplot as plt
 
+# WHY: This project compares two sentiment approaches on the same review data.
+# VADER applies human-designed lexical rules, while a transformer uses learned
+# contextual patterns. Cleaning, scoring, tabulating, and plotting the results
+# lets us compare not just individual predictions but the dataset as a whole.
+
 # VADER is a rule-based method of sentiment analysis, which means it uses a
 # predefined set of rules and a built-in dictionary of words to determine
 # whether the text expresses a positive, negative, or neutral emotion.

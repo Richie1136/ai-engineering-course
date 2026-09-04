@@ -4,6 +4,11 @@ import torch
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# WHY: The tokenizer and model must come from the same checkpoint. The tokenizer
+# converts text into the token IDs BERT was trained to understand; the model
+# assigns start/end scores to those IDs. This lesson exposes the intermediate
+# values so the answer-span calculation is understandable rather than magical.
+
 
 # =====================================================
 # Load the Model and Tokenizer

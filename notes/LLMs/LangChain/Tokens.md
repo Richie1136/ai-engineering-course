@@ -206,4 +206,3 @@ Once again, the tokenizer treats it as a different token because its surrounding
 - Larger tokens capture more context but require much larger vocabularies.
 - Different OpenAI models may tokenize the same text differently.
 - Token IDs depend not only on the word itself but also on its surrounding context.
-```

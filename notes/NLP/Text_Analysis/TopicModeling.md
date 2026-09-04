@@ -39,9 +39,9 @@ There are a number of different algorithms used in topic modeling, but we will b
 
 ## Example Topics
 
-* **Topic 1 – Equipment:** Video, Audio, Hardware
-* **Topic 2 – Media:** Celebrities, Journalists, Publication
-* **Topic 3 – Government:** Government, Regulations, Policy
+- **Topic 1 – Equipment:** Video, Audio, Hardware
+- **Topic 2 – Media:** Celebrities, Journalists, Publication
+- **Topic 3 – Government:** Government, Regulations, Policy
 
 ---
 
@@ -49,8 +49,8 @@ There are a number of different algorithms used in topic modeling, but we will b
 
 ### Benefits
 
-* Faster
-* Less manual work
+- Faster
+- Less manual work
 
 ### Grouping Similar Content
 

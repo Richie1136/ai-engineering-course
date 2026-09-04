@@ -1,3 +1,8 @@
+# WHY: Logical operators combine or reverse Boolean conditions. Identity
+# operators answer a different question: whether two names refer to the exact
+# same object. Use `==` for equal values and reserve `is` for identity checks
+# such as `value is None`.
+
 # NOT - AND - OR
 
 # Logical operators = Boolean operators

@@ -2,6 +2,17 @@ from openai import OpenAI
 import config
 
 # =============================================================================
+# Quick Reference
+# =============================================================================
+
+# Purpose: explain why an LLM application may need custom, external data.
+# First, ask the model a question whose answer may not be in its general
+# knowledge. Then review the retrieval workflow that gives a model relevant
+# document chunks before it generates an answer.
+# Key idea: the model generates language; loaders, embeddings, vector stores,
+# and retrievers connect that model to current or private information.
+
+# =============================================================================
 # OpenAI Client
 # =============================================================================
 

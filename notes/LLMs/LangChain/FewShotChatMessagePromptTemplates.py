@@ -50,7 +50,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 chat = ChatOpenAI(
     model="gpt-5-mini",
     temperature=0,
-    model_kwargs={"seed": 365},
+    seed=365,
     max_completion_tokens=1000
 )
 

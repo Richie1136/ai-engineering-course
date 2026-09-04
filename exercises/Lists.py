@@ -1,3 +1,8 @@
+# WHY: Lists store ordered, changeable collections; tuples store ordered,
+# fixed collections. This file practices selecting and changing list items,
+# slicing and sorting, nesting collections, unpacking tuples, and passing a
+# collection into a function for aggregation.
+
 # List - A type of sequence of data points
 
 

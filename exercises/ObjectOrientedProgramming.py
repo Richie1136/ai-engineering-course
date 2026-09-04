@@ -1,3 +1,8 @@
+# WHY: Object-oriented programming groups data (attributes) with behavior
+# (methods) under a class. A class is the blueprint; an object is one concrete
+# instance. Understanding this explains syntax such as `items.extend(...)`:
+# the method belongs to and operates on that particular list object.
+
 # Logical Objects - Floats, Strings, Lists, Integers
 
 # Each object belongs to some class

@@ -1,5 +1,10 @@
 from transformers import pipeline
 
+# WHY: `pipeline()` is the high-level entry point for common inference tasks.
+# It selects/loads the tokenizer and model, preprocesses input, runs inference,
+# and postprocesses scores into readable labels. Use it for quick applications;
+# use direct model calls when you need control over those stages.
+
 
 # The Transformers library provides a simple way to start working with
 # pre-trained language models through the pipeline() function.

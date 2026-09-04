@@ -1,3 +1,8 @@
+# WHY: Imports let a program reuse tested code instead of rebuilding every
+# feature. A module is usually one Python file; a package organizes modules;
+# the standard library is included with Python. The examples compare import
+# styles so it is clear where `sqrt` comes from at the call site.
+
 # Module - Pre-Written code containing definition of
 # variables, functions, and classes
 # It can be loaded in all new programs, import module

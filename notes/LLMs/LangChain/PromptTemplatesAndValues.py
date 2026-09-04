@@ -1,5 +1,9 @@
 from langchain_core.prompts import PromptTemplate
 
+# WHY: Hard-coded prompts are difficult to reuse. A PromptTemplate marks the
+# changing pieces as variables, validates that values are supplied, and creates
+# a PromptValue compatible with other LangChain components.
+
 
 # =====================================================
 # Prompt Templates and Prompt Values

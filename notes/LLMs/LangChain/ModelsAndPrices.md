@@ -115,4 +115,3 @@ Toward the end of the OpenAI documentation, you'll also find:
 - Audio models
 
 These topics are outside the scope of this course.
-```
