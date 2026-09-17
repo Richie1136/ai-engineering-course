@@ -5,3 +5,7 @@ notes/LLMs/LangChain/.env
 __pycache__/
 notes/LLMs/XLNet/fine_tuned_model/
 notes/LLMs/XLNet/test_trainer/
+.DS_Store
+*.docx
+*.pdf
+notes/LLMs/LangChain/RAG/intro-to-ds-lectures/

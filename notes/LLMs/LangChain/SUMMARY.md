@@ -62,17 +62,60 @@ the response text is normally read from `.content`.
 The usual flow is `template -> invoke(values) -> prompt value -> model`. Few-shot
 templates add demonstrations so the model can imitate a desired format or tone.
 
-## 5. Custom Data and Retrieval
+## 5. Output Parsers
 
-- `LangChain.py` — Explains why general model knowledge is insufficient for
-  private, current, or domain-specific questions and outlines retrieval.
-- `AddingCustomData.py` — Implements a webpage-based RAG pipeline with a loader,
-  text splitter, embeddings, FAISS vector search, question rewriting, retrieved
-  context, and conversation history.
+- `StringOutputParser.py` — Uses a string output parser to convert a model's
+  `AIMessage` response into plain text that can be passed directly to another
+  component or used by the application.
+- `CommaSeparatedListOutputParser.py` — Converts comma-separated model output
+  into a Python list and provides formatting instructions that can be included
+  in the prompt.
+- `DatetimeOutputParser.py` — Parses model-generated date and time text into a
+  structured Python datetime value.
 
-**Section summary:** RAG loads source data, splits it into chunks, converts the
-chunks to embeddings, stores them in a vector database, retrieves relevant
-chunks for a question, and gives those chunks to the model as context.
+**Section summary:** Output parsers transform raw model output into a format
+that is easier for application code to consume. They can also provide format
+instructions that tell the model how its response should be structured.
+
+## 6. LangChain Expression Language (LCEL)
+
+- `LCELPiping.py` — Connects prompts, chat models, and output parsers with the
+  LCEL pipe operator (`|`) so the output of one component becomes the input to
+  the next.
+- `BatchingAndStreaming.py` — Demonstrates processing multiple inputs with
+  `batch()` and receiving model output incrementally with `stream()`.
+- `RunnableSequence.py` — Explores the `Runnable` interface and
+  `RunnableSequence`, which represent components that can be composed into an
+  ordered execution pipeline.
+- `RunnablePassthrough.py` — Uses `RunnablePassthrough` to preserve incoming
+  values while passing data through or adding values needed by later parts of
+  a chain.
+- `RunnableParallel.py` — Uses `RunnableParallel` to send the same input through
+  multiple runnable branches and collect their results.
+- `RunnableLambda.py` — Wraps regular Python functions so custom logic can
+  participate in an LCEL chain.
+
+**Section summary:** LCEL provides a standard way to compose LangChain
+components. Runnables can be chained sequentially, executed in parallel,
+batched, streamed, or combined with custom Python logic while keeping the
+application pipeline readable and reusable.
+
+## 7. Retrieval-Augmented Generation (RAG)
+
+Retrieval-Augmented Generation (RAG) extends an LLM with external knowledge by
+retrieving relevant information and providing it to the model as additional
+context.
+
+The detailed RAG workflow, concepts, and runnable examples are organized
+separately in the `RAG/` folder.
+
+See `RAG/Summary.md` for the complete RAG quick reference covering document
+loading, document splitting, embeddings, vector stores, similarity search,
+MMR, retrievers, document stuffing, and response generation.
+
+**Section summary:** RAG allows LangChain applications to answer questions using
+private, current, or domain-specific information that may not exist in the
+model's training data.
 
 ## Core Workflows at a Glance
 
@@ -83,10 +126,21 @@ prompt -> ChatOpenAI.invoke() -> AIMessage -> .content
 Reusable prompt:
 template + values -> PromptValue -> chat model -> AIMessage
 
-RAG:
-documents -> chunks -> embeddings -> vector store
-question -> retrieval -> relevant context -> chat model -> grounded answer
+Output parsing:
+prompt -> chat model -> AIMessage -> output parser -> usable Python value
+
+LCEL:
+prompt | model | output parser
+   ↓
+input -> component -> component -> component -> output
+
+RunnableParallel:
+                     -> runnable A ->
+input -> parallel ->                 -> combined output
+                     -> runnable B ->
 ```
+
+For the complete RAG workflow, see `RAG/Summary.md`.
 
 ## Terms to Remember
 
@@ -94,9 +148,19 @@ question -> retrieval -> relevant context -> chat model -> grounded answer
 - **Context window:** The maximum tokens available for input and output.
 - **Prompt template:** Reusable prompt text containing placeholders.
 - **Prompt value:** A completed prompt ready to pass to a model.
-- **Embedding:** A numerical representation used to compare semantic meaning.
-- **Vector store:** A database optimized for similarity search over embeddings.
-- **Retriever:** The component that selects relevant source chunks.
-- **RAG:** Generation supported by context retrieved from an external source.
+- **Output parser:** A component that transforms model output into a more useful
+  representation such as a string, list, or datetime.
 - **LCEL:** LangChain Expression Language, used to compose components into
   chains where one component's output becomes the next component's input.
+- **Runnable:** LangChain's standard interface for components that can be
+  invoked, chained, batched, streamed, or composed with other components.
+- **RunnableSequence:** A sequence of Runnables executed one after another.
+- **RunnablePassthrough:** A Runnable that preserves or forwards input while
+  allowing additional values or transformations to be added.
+- **RunnableParallel:** A Runnable that executes multiple branches using the
+  same input and combines their outputs.
+- **RunnableLambda:** A wrapper that turns a Python callable into a Runnable so
+  it can participate in an LCEL chain.
+- **RAG:** Retrieval-Augmented Generation, a technique that retrieves relevant
+  external information and supplies it to a language model as context before
+  generating a response.
