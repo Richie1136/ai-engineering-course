@@ -9,3 +9,9 @@ notes/LLMs/XLNet/test_trainer/
 *.docx
 *.pdf
 notes/LLMs/LangChain/RAG/intro-to-ds-lectures/
+.env
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal

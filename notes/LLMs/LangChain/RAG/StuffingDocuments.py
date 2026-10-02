@@ -336,8 +336,6 @@ chain3 = (
         "question": RunnablePassthrough()
     }
     | prompt_template
-    | chat
-    | StrOutputParser()
 )
 
 
