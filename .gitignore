@@ -2,6 +2,10 @@ venv/
 notes/data
 notes/LLMs/GPT/config.py
 notes/LLMs/LangChain/.env
+notes/LLMs/VectorDatabases/.env
+notes/LLMs/VectorDatabases/SemanticSearch/course_descriptions.csv
+notes/LLMs/VectorDatabases/SemanticSearch/course_section_descriptions.csv
+
 __pycache__/
 notes/LLMs/XLNet/fine_tuned_model/
 notes/LLMs/XLNet/test_trainer/
